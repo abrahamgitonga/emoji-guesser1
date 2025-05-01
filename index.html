@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoji Guesser Game || TWC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🤔 Emoji Guesser</h1>
+      <p id="hint">Hint: Something that flies at night 🦇</p>
+
+      <input type="text" id="guess" placeholder="Type your emoji here..." />
+      <button onclick="checkAnswer()">Guess</button>
+      <p id="feedback"></p>
+
+      <button id="shareBtn" style="display: none" onclick="shareResult()">
+        Share on Twitter
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
